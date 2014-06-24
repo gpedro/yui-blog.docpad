@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="posts">
+    <section class="post">
+        <header class="post-header">
+            <h2 class="post-title"><%- @document.title or @document.name %></h2>
+        </header>
+
+        <div class="post-description">
+            <%- @content %>
+        </div>
+    </section>
+</div>
